@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <div>
         <UserForm />
+
         <Filters articles={articles} />
         <ArticleList articles={articles} />
         <ArticlesChart articles={articles} />
